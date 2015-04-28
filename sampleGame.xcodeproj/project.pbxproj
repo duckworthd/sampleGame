@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65766BF11AEB950600B48986 /* Abacus.m in Sources */ = {isa = PBXBuildFile; fileRef = 65766BF01AEB950600B48986 /* Abacus.m */; };
+		65766BF41AEB9FA300B48986 /* Bead.m in Sources */ = {isa = PBXBuildFile; fileRef = 65766BF31AEB9FA300B48986 /* Bead.m */; };
+		65766BF71AEBA74A00B48986 /* BeadData.m in Sources */ = {isa = PBXBuildFile; fileRef = 65766BF61AEBA74A00B48986 /* BeadData.m */; };
 		65C001311AEB2C5200B3D6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C001301AEB2C5200B3D6BF /* main.m */; };
 		65C001341AEB2C5200B3D6BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C001331AEB2C5200B3D6BF /* AppDelegate.m */; };
 		65C001371AEB2C5200B3D6BF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C001361AEB2C5200B3D6BF /* GameScene.m */; };
@@ -29,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65766BEF1AEB950600B48986 /* Abacus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Abacus.h; sourceTree = "<group>"; };
+		65766BF01AEB950600B48986 /* Abacus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Abacus.m; sourceTree = "<group>"; };
+		65766BF21AEB9FA300B48986 /* Bead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bead.h; sourceTree = "<group>"; };
+		65766BF31AEB9FA300B48986 /* Bead.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bead.m; sourceTree = "<group>"; };
+		65766BF51AEBA74A00B48986 /* BeadData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeadData.h; sourceTree = "<group>"; };
+		65766BF61AEBA74A00B48986 /* BeadData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeadData.m; sourceTree = "<group>"; };
 		65C0012B1AEB2C5200B3D6BF /* sampleGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C0012F1AEB2C5200B3D6BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65C001301AEB2C5200B3D6BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -90,9 +99,15 @@
 				65C001331AEB2C5200B3D6BF /* AppDelegate.m */,
 				65C001351AEB2C5200B3D6BF /* GameScene.h */,
 				65C001361AEB2C5200B3D6BF /* GameScene.m */,
+				65766BF21AEB9FA300B48986 /* Bead.h */,
+				65766BF31AEB9FA300B48986 /* Bead.m */,
+				65766BEF1AEB950600B48986 /* Abacus.h */,
+				65766BF01AEB950600B48986 /* Abacus.m */,
 				65C001381AEB2C5200B3D6BF /* GameScene.sks */,
 				65C0013A1AEB2C5200B3D6BF /* GameViewController.h */,
 				65C0013B1AEB2C5200B3D6BF /* GameViewController.m */,
+				65766BF51AEBA74A00B48986 /* BeadData.h */,
+				65766BF61AEBA74A00B48986 /* BeadData.m */,
 				65C0013D1AEB2C5200B3D6BF /* Main.storyboard */,
 				65C001401AEB2C5200B3D6BF /* Images.xcassets */,
 				65C001421AEB2C5200B3D6BF /* LaunchScreen.xib */,
@@ -228,9 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65766BF71AEBA74A00B48986 /* BeadData.m in Sources */,
 				65C0013C1AEB2C5200B3D6BF /* GameViewController.m in Sources */,
+				65766BF41AEB9FA300B48986 /* Bead.m in Sources */,
 				65C001341AEB2C5200B3D6BF /* AppDelegate.m in Sources */,
 				65C001371AEB2C5200B3D6BF /* GameScene.m in Sources */,
+				65766BF11AEB950600B48986 /* Abacus.m in Sources */,
 				65C001311AEB2C5200B3D6BF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +446,7 @@
 				65C001551AEB2C5200B3D6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65C001561AEB2C5200B3D6BF /* Build configuration list for PBXNativeTarget "sampleGameTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +455,7 @@
 				65C001581AEB2C5200B3D6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

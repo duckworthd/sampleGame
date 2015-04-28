@@ -8,7 +8,7 @@
 
 #import "GameViewController.h"
 #import "GameScene.h"
-
+#import "BeadData.h"
 @implementation SKScene (Unarchive)
 
 + (instancetype)unarchiveFromFile:(NSString *)file {
