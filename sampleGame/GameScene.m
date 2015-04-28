@@ -121,6 +121,9 @@
     return beadNumber;
 }
 
+//Problem: trying to create better method with NSAssert & output parameters that first checks a bead IS being touched.
+//Example: http://www.raywenderlich.com/66877/how-to-make-a-game-like-candy-crush-part-1
+//Look at "convertPoint:toColumn:row:" method.
 //trying assert and output parameters
 -(BOOL)whichBeadMovedwithTouch2:(UITouch *)touch{
    // NSParameterAssert(beadNumber);
